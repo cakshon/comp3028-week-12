@@ -1,0 +1,16 @@
+{
+  "name": "comp3028-server-management-lab",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Local teaching experiments for Lecture 10",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "cluster": "node cluster.js"
+  },
+  "devDependencies": {
+    "pm2": "^7.1.2"
+  }
+}
